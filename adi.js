@@ -1,6 +1,6 @@
-var disc = require('./discord.io');
-var logger = require('./winston');
-var auth = require('./auth.json');
+const disc = require('./discord.io');
+const logger = require('./winston');
+const auth = require('./auth.json');
 
 logger.remove(logger.transports.Console);
 logger.add(logger.transports.Console, {
@@ -21,3 +21,5 @@ bot.on('message', function(user,userID,channel,message,evt) {
         }
     }
 });
+
+bot.login(process.env.BOT_TOKEN);
