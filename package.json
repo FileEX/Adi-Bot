@@ -1,0 +1,12 @@
+{
+    "name": "Adi",
+    "version": "1.0.0",
+    "description": "Adi spod 2",
+    "main": "adi.js",
+    "author": "FileEX",
+    "dependencies": {
+        "discord.io": "^2.5.3",
+        "now": "^14.0.2",
+        "winston": "^2.4.2"
+    }
+}
